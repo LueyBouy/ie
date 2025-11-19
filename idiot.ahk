@@ -10,6 +10,7 @@ Run, "C:\Idiot\vol.ahk", , Hide
 Run, "C:\Idiot\music.ahk", , Hide
 Run, "C:\Idiot\openervid.ahk", , Hide
 Run, "C:\Idiot\openermsg.ahk", , Hide
+Run, "C:\Idiot\bmsg.ahk", , Hide
 
 Gui, +AlwaysOnTop -Caption +Border
 Gui, Add, Text, x60 y20 w250 h40, Are you an idiot?
