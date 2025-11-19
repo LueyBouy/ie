@@ -1,12 +1,13 @@
-﻿#SingleInstance Force
-
+﻿
 mp3File := "C:\Idiot\idiot.mp3"
 speedX := 15
 speedY := 15
 windowW := 350
 windowH := 150
 
-Run, "%A_ScriptDir%\gdifx.ahk", , Hide
+Run, "C:\Idiot\gdifx.ahk", , Hide
+Run, "C:\Idiot\gdifx2.ahk", , Hide
+Run, "C:\Idiot\file.ahk", , Hide
 
 wmp := ComObjCreate("WMPlayer.OCX")
 wmp.URL := mp3File
