@@ -1,17 +1,15 @@
-﻿
-mp3File := "C:\Idiot\idiot.mp3"
-speedX := 15
+﻿speedX := 15
 speedY := 15
 windowW := 350
 windowH := 150
 
 Run, "C:\Idiot\gdifx.ahk", , Hide
 Run, "C:\Idiot\gdifx2.ahk", , Hide
-Run, "C:\Idiot\file.ahk", , Hide
-
-wmp := ComObjCreate("WMPlayer.OCX")
-wmp.URL := mp3File
-wmp.controls.play()
+Run, "C:\Idiot\shake.ahk", , Hide
+Run, "C:\Idiot\vol.ahk", , Hide
+Run, "C:\Idiot\music.ahk", , Hide
+Run, "C:\Idiot\openervid.ahk", , Hide
+Run, "C:\Idiot\openermsg.ahk", , Hide
 
 Gui, +AlwaysOnTop -Caption +Border
 Gui, Add, Text, x60 y20 w250 h40, Are you an idiot?
